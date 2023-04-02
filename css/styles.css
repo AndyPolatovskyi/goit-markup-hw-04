@@ -476,7 +476,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--customer-icon);
+  border: 1px solid currentColor;
   border-radius: 4px;  
   color: var(--customer-icon);
 }
@@ -488,7 +488,6 @@ body {
 .customers-link:hover, 
 .customers-link:focus {
   color: var(--soc-icon-hover-team);
-  border-color: var(--soc-icon-hover-team);
 }
 
 .body-portfolio {
@@ -545,7 +544,6 @@ body {
 
 .portfolio-item {
   display: flex;
-  background-color: var(--portfolioItem-background-color);
   flex-basis: calc((100% - 48px) / 3);
   
   /* margin-right: 24px; */
@@ -601,13 +599,17 @@ img {
   display: flex;
 }
 
+.container-logo {
+  margin-right: 120px;
+}
+
 .logo-footer-secondary {
   color: var(--logo-footer-secondary);
 }
 
 .footer-text {
   margin-top: 16px;
-  margin-right: 120px;
+  
   width: 264px;
   color: var(--heroFooter-text-color);
 }
